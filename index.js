@@ -12,7 +12,7 @@ const client = new Client({
 
 async function runCrudDemo() {
   await client.connect();
-  console.log("Connected to PostgreSQL on localhost:5432\n");
+  console.log("Connected to PostgreSQL on localhost:5433\n");
 
   // CREATE
   const insertResult = await client.query(
