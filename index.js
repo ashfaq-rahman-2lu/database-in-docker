@@ -4,7 +4,7 @@ const { Client } = pg;
 
 const client = new Client({
   host: "localhost",
-  port: 5432,
+  port: 5433,
   user: "appuser",
   password: "apppassword",
   database: "appdb",
