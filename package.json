@@ -1,0 +1,15 @@
+{
+  "name": "postgres-docker-crud",
+  "version": "1.0.0",
+  "description": "Connect to PostgreSQL in Docker and run CRUD operations",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "db:up": "docker compose up -d",
+    "db:down": "docker compose down",
+    "db:logs": "docker compose logs -f postgres"
+  },
+  "dependencies": {
+    "pg": "^8.16.0"
+  }
+}
